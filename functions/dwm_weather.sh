@@ -17,8 +17,11 @@ dwm_weather() {
         #printf "[WEA %s" "$(curl -s wttr.in/$LOCATION?format=1 | grep -o "[0-9].*")"
     #fi
     weather=$(curl -s wttr.in/$LOCATION?format=1)
-    if [ ${#weather} -lt 10 ];then
-        printf "[$weather]"
+    ping -c 1 www.baidu.com > /dev/null 2>&1
+    if [ $? -eq 0 ];then
+        if [ ${#weather} -lt 10 ];then
+            printf "[$weather]"
+        fi
     fi
 }
 
