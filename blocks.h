@@ -7,7 +7,7 @@ static const Block blocks[] = {
 	{"",    "/home/dylan/prog/dwmblocks/functions/dwm_alsa.sh",      0,  0},
 	{"",    "/home/dylan/prog/dwmblocks/functions/dwm_battery.sh",   10, 0},
 	{"📆 ", "/home/dylan/prog/dwmblocks/functions/dwm_date.sh",      60, 0},
-	{"",    "/home/dylan/prog/dwmblocks/functions/dwm_weather.sh",   60,  0},
+	{"",    "/home/dylan/prog/dwmblocks/functions/dwm_weather.sh",   0,  0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
