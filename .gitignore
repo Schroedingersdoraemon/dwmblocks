@@ -1,1 +1,9 @@
 dwmblocks
+blocks.def.h
+blocks.h
+dwmblocks.c
+dwm_transferred_functions
+functions
+LICENSE
+Makefile
+README.md
