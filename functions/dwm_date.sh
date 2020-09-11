@@ -6,8 +6,8 @@
 
 # Date is formatted like like this: "[Mon 01-01-00 00:00:00]"
 dwm_date () {
-    printf "%s" "$(date "+%m-%d %T %a")"
-    #printf "%s" "$(date "+%m-%d %H:%M %a")"
+    #printf "%s" "$(date "+%m-%d %T %a")"
+    printf "%s" "$(date "+%m-%d %H:%M %a")"
 }
 
 dwm_date
