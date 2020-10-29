@@ -1,11 +1,11 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 /*
-    kill -34+(update signal) $(pidof dwmblocks)
-    pkill -RTMIN+(update signal) $(pidof dwmblocks)
+    kill -34-(update signal) $(pidof dwmblocks)
+    pkill -RTMIN-(update signal) $(pidof dwmblocks)
 */
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		        /*Update Interval*/         /*Update Signal*/
-	{"",    "~/prog/dwmblocks/functions/dwm_cmus.sh",     60,  1},
+	{"",    "~/prog/dwmblocks/functions/dwm_cmus.sh",      0,  1},
 	{" 💿 ","~/prog/dwmblocks/functions/dwm_resources.sh", 5,  0},
 	{"",    "~/prog/dwmblocks/functions/dwm_netspeed.sh",  0,  0},
 	{"",    "~/prog/dwmblocks/functions/dwm_alsa.sh",      0,  2},
