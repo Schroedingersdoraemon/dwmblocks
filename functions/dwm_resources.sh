@@ -8,7 +8,7 @@ dwm_resources () {
     MEMUSED=$(free -h | awk '(NR == 2) {print $3}')
     MEMTOT=$(free -h |awk '(NR == 2) {print $2}')
 
-    printf "%s" "$MEMUSED"
+    printf " %s" "$MEMUSED"
 }
 
 dwm_resources
