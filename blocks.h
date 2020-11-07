@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 /*
     kill -34-(update signal) $(pidof dwmblocks)
-    pkill -RTMIN-(update signal) $(pidof dwmblocks)
+    pkill -RTMIN+(update signal) $(pidof dwmblocks)
 */
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		        /*Update Interval*/         /*Update Signal*/
