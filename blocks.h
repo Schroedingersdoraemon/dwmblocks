@@ -5,10 +5,11 @@
 */
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		        /*Update Interval*/         /*Update Signal*/
-	{"",    "~/prog/dwmblocks/functions/dwm_music.sh",    10,  1},
+	{"",    "~/prog/dwmblocks/functions/dwm_music.sh",     0,  1},
 	{" 💿","~/prog/dwmblocks/functions/dwm_resources.sh",  5,  0},
 	{"",    "~/prog/dwmblocks/functions/dwm_netspeed.sh",  0,  0},
 	{"",    "~/prog/dwmblocks/functions/dwm_alsa.sh",      0,  2},
+	{"",  "~/prog/dwmblocks/functions/dwm_light.sh",     0,  4},
 	{"",    "~/prog/dwmblocks/functions/dwm_battery.sh",   10, 0},
 	{"📆 ", "~/prog/dwmblocks/functions/dwm_date.sh",      60, 0},
 	{"",    "~/prog/dwmblocks/functions/dwm_weather.sh",   0,  3},
